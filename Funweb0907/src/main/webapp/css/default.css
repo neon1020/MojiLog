@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color: rgb(251, 227, 187);
+	margin: 0px;
+	padding: 0px;
+	font-family: 'EarlyFontDiary';
+	font-size: 1em;
+	line-height: 1.2em;
+	color: #333;
+}
+
+#wrap{
+	width: 971px;
+	margin: 0 auto;
+	min-height: 780px;
+	text-align: left;
+	background-image: url("../images/shadow.png");
+	background-repeat: repeat-y;
+	background-position: center;
+}
+#login{
+	float:right;
+	margin:20px 64px 0 0;
+	font-family: 'EarlyFontDiary';
+	font-size: 12px;
+	word-spacing: 5px;
+}
+#login a{
+	text-decoration: none;
+	color: #333;
+}
+#login a:hover{
+	color: #F90;
+}
+
+.clear{
+	clear: both;
+}
+
+#logo{
+	float: left;
+	width: 265px;
+	margin: 60px 0 0 40px;
+}
+
+header{
+	height: 151px;
+	margin: 0px;
+	padding: 0px;
+	}
+
+nav#top_menu{
+	width: 600px;
+	margin: 50px 20px 0 0;
+	float: right;
+}
+nav#top_menu ul{
+	list-style: none;
+	font-size: 13px;
+	font-weight: 100;
+	color: #333
+}
+nav#top_menu li{
+	float: left;
+	margin: 0 5px;
+}
+nav#top_menu a{
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	padding: 10px;
+	color: #333;
+}
+nav#top_menu a:hover{
+	background-image: url("../images/underline_3.png");
+	background-size: 10px 5px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+
+/* footer */
+footer{
+	margin: 50px 0 0 0;
+	height: 80px;
+	background-image: url("../images/under_logo.png");
+	background-size: 131px 33px;
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	font-size: 0.75em;
+	}
+footer hr{
+	width: 900px;
+	margin: 0 0 0 20px;
+	}
+footer #copy{
+	width:450px;
+	margin: 20px 0 0 190px;
+	float: left;
+}
+footer #social{
+	width: 200px;
+	margin: 20px 20px 0 0;
+	float: right;
+}
+footer #social img{
+	margin: 0 7px;
+}
